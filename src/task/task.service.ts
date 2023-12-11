@@ -3,7 +3,7 @@ import { CreateTaskDto } from './dto/create-task.dto';
 import { UpdateTaskDto } from './dto/update-task.dto';
 
 @Injectable()
-export class TaskService {
+export class TasksService {
   create(createTaskDto: CreateTaskDto) {
     return 'This action adds a new task';
   }
